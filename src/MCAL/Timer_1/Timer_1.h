@@ -25,7 +25,7 @@ void __vector_7(void) __attribute__((signal, used)); //Compare match A
 void __vector_8(void) __attribute__((signal, used)); //Compare match B
 void __vector_9(void) __attribute__((signal, used)); //OverFlow
 
-void Timer_1_INIT_With_OCV(u8 WAVEFORM_MODE, u8 TIMER_1_OUTPUT_COMPARE_MODE_A, u8 TIMER_1_OUTPUT_COMPARE_MODE_B, u8 TIMER_1_OCV_A,  u8 TIMER_1_OCV_B);
+void Timer_1_INIT_With_OCV(u8 WAVEFORM_MODE, u8 TIMER_1_OUTPUT_COMPARE_MODE_A, u8 TIMER_1_OUTPUT_COMPARE_MODE_B, u16 TIMER_1_OCV_A,  u16 TIMER_1_OCV_B);
 
 
 void Timer_1_OverFlow_Int_Enable(void);
